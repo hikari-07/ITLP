@@ -1,0 +1,1388 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+html body {
+  box-sizing: border-box;
+  /* Font-weight */
+  /* Color */
+}
+html body li {
+  list-style-type: none;
+}
+html body a {
+  text-decoration: none;
+  color: #000;
+}
+html body .inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+html body .serif {
+  font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 ProN", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro", serif;
+}
+html body .fw-700 {
+  font-weight: 700;
+}
+html body .fw-900 {
+  font-weight: 900;
+}
+html body .red {
+  color: #DB0019;
+}
+html body .br480 {
+  display: none;
+}
+html body header {
+  background-color: #1E5692;
+  height: 100px;
+  margin-bottom: 7rem;
+}
+html body header .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+html body header .header-inner h1 {
+  width: 90px;
+}
+html body header .header-inner h1 a img {
+  width: 100%;
+}
+html body header .header-inner .nav-center ul {
+  display: flex;
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+html body header .header-inner .nav-center ul li {
+  margin-right: 1.6rem;
+}
+html body header .header-inner .nav-center ul li a {
+  color: #fff;
+  font-size: 1.3rem;
+  letter-spacing: 0.4px;
+}
+html body header .header-inner .nav-center ul li:last-child {
+  margin-right: 0;
+}
+html body header .header-inner .nav-right ul li {
+  padding: 0.7rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 20px;
+}
+html body header .header-inner .nav-right ul li a img {
+  margin-right: 5px;
+}
+html body header .header-inner .nav-right ul li:first-child {
+  background-color: #01BD00;
+  margin-bottom: 0.8rem;
+}
+html body header .header-inner .nav-right ul li:first-child a {
+  color: #fff;
+}
+html body header .header-inner .nav-right ul li:first-child a img {
+  background-color: #01BD00;
+  margin-bottom: 1px;
+}
+html body header .header-inner .nav-right ul li:last-child {
+  background-color: #FFF;
+}
+html body header .header-inner .nav-right ul li:last-child a img {
+  margin-bottom: 2px;
+}
+html body header .header-inner .hamburger-menu {
+  display: none;
+}
+html body main h2.title {
+  color: #1E5692;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+html body main .main-visual {
+  margin-bottom: 10rem;
+}
+html body main .main-visual .main-visual-flex {
+  display: flex;
+}
+html body main .main-visual .main-visual-flex .left {
+  width: 50%;
+  margin-right: 2rem;
+}
+html body main .main-visual .main-visual-flex .left h2 {
+  color: #fff;
+  font-size: 2rem;
+  background-color: #1E5692;
+  border-radius: 10px;
+  padding: 0.5rem 1rem 0.5rem 1.7rem;
+  margin-bottom: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+html body main .main-visual .main-visual-flex .left .main-message {
+  margin-bottom: 3rem;
+}
+html body main .main-visual .main-visual-flex .left .main-message p {
+  font-size: 1.7rem;
+}
+html body main .main-visual .main-visual-flex .left .main-message p .span1 {
+  font-size: 3rem;
+  letter-spacing: -0.1rem;
+}
+html body main .main-visual .main-visual-flex .left .main-message p .red {
+  font-size: 3.6rem;
+}
+html body main .main-visual .main-visual-flex .left .main-message p .span2 {
+  letter-spacing: -0.4rem;
+}
+html body main .main-visual .main-visual-flex .left .main-message p .span3 {
+  letter-spacing: 0.1rem;
+}
+html body main .main-visual .main-visual-flex .right {
+  margin-right: calc(50% - 50vw);
+  width: 50%;
+  margin-right: 0%;
+}
+html body main .main-visual .main-visual-flex .right img {
+  width: 50vw;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+html body main .main-visual .point {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+html body main .main-visual .point .point-div {
+  text-align: center;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 50%;
+}
+html body main .main-visual .point .point-div h3 {
+  background-color: #1E5692;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 10px 10px 0 0;
+  height: 70px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html body main .main-visual .point .point-div h3 span {
+  font-size: 0.8vw;
+}
+html body main .main-visual .point .point-div p {
+  background-color: #F7F7F7;
+  border-radius: 0 0 10px 10px;
+  height: 70px;
+  line-height: 70px;
+  letter-spacing: 0.2rem;
+}
+html body main .main-visual .point .point-div p span {
+  font-size: 2.4rem;
+  letter-spacing: 0;
+  margin: 0 0.2rem;
+}
+html body main .main-visual .point .point-left {
+  margin-right: 1.4rem;
+}
+html body main .main-visual .button {
+  display: block;
+  background-color: #FFFA83;
+  font-size: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.2);
+}
+html body main .main-visual .button:hover {
+  opacity: 0.8;
+}
+html body main .main-visual .responsive {
+  display: none;
+}
+html body main .problem {
+  background-color: #1E5692;
+  margin: 0 calc(50% - 50vw) 7rem;
+}
+html body main .problem .problem-inner {
+  padding: 6rem 0;
+}
+html body main .problem .problem-inner h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 1rem auto;
+}
+html body main .problem .problem-inner .problem-contents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body main .problem .problem-inner .problem-contents .iamge {
+  margin: 0 auto;
+  width: 20%;
+}
+html body main .problem .problem-inner .problem-contents .iamge img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+html body main .problem .problem-inner .problem-contents .image-left {
+  margin-right: 1rem;
+}
+html body main .problem .problem-inner .problem-contents .image-right {
+  margin-left: 1rem;
+}
+html body main .problem .problem-inner .problem-contents .content {
+  background-color: #fff;
+  padding: 4rem 5rem 3rem;
+  border-radius: 40px;
+  width: 55%;
+}
+html body main .problem .problem-inner .problem-contents .content .content-inner .inside {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+html body main .problem .problem-inner .problem-contents .content .content-inner .inside img {
+  margin-right: 0.6rem;
+  padding-top: 0.2rem;
+}
+html body main .problem .problem-inner .problem-contents .content .content-inner .inside p {
+  margin-top: -4px;
+  font-size: 1.6rem;
+}
+html body main .problem .problem-inner .problem-contents .content .content-inner .inside p span {
+  font-size: 1.8rem;
+}
+html body main .problem .problem-inner .responsive-image {
+  display: none;
+}
+html body main .service {
+  margin-bottom: 8rem;
+}
+html body main .service .explanation {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 2rem auto;
+}
+html body main .service .explanation p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+html body main .service .explanation p .br480 {
+  display: none;
+}
+html body main .service .explanation .red {
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+}
+html body main .service .contents {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+html body main .service .contents .detail {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  background-color: #1E5692;
+  border: 10px solid #1E5692;
+  width: calc(33.3333333333% - 3rem);
+  height: -moz-fit-content;
+  height: fit-content;
+  box-shadow: 4px 6px 7px 1px rgba(0, 0, 0, 0.2);
+}
+html body main .service .contents .detail .detail-inner {
+  background-color: #F7F7F7;
+  border-radius: 10px;
+  padding: 1rem 2rem 1rem;
+  min-height: 13rem;
+  height: 11rem;
+}
+html body main .service .contents .detail .detail-inner h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+}
+html body main .service .contents .detail .detail-inner .detail-flex {
+  display: flex;
+  align-items: center;
+}
+html body main .service .contents .detail .detail-inner .detail-flex img {
+  margin-right: 3px;
+}
+html body main .service .contents .detail .detail-inner .detail-flex p {
+  font-size: 1.3rem;
+}
+html body main .service .contents .detail-top {
+  margin-bottom: 2rem;
+}
+html body main .service .contents .detail1 {
+  margin-left: 0;
+}
+html body main .service .contents .detail3,
+html body main .service .contents .detail5 {
+  margin-right: 0;
+}
+html body main .subsidy {
+  margin-bottom: 8rem;
+}
+html body main .subsidy .explanation {
+  font-size: 1.6rem;
+  margin: 0 auto 2rem auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+html body main .subsidy .explanation p {
+  text-align: center;
+}
+html body main .subsidy .explanation p .red {
+  font-weight: 700;
+}
+html body main .subsidy .overview {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+html body main .subsidy .overview .subsidy-detail {
+  background-color: #F7F7F7;
+  width: 48%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 2rem 4rem 3rem;
+  margin-bottom: 2rem;
+  box-shadow: 3px 4px 6px 0px rgba(0, 0, 0, 0.2);
+}
+html body main .subsidy .overview .subsidy-detail h3 {
+  color: #DB0019;
+  font-size: 1.8rem;
+  font-weight: 700;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 2rem auto;
+}
+html body main .subsidy .overview .subsidy-detail p {
+  font-size: 1.6rem;
+}
+html body main .IT-subsidy {
+  margin-bottom: 10rem;
+}
+html body main .IT-subsidy .flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+html body main .IT-subsidy .flex .point {
+  border: 1px solid #9F9F9F;
+  border-radius: 20px;
+  padding: 2rem 4rem;
+  width: 24%;
+  margin-right: 2rem;
+}
+html body main .IT-subsidy .flex .point h3 {
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+html body main .IT-subsidy .flex .point p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+html body main .IT-subsidy .flex .point img {
+  display: block;
+  margin: 0 auto;
+}
+html body main .IT-subsidy .flex .schedule {
+  width: 40%;
+}
+html body main .IT-subsidy .flex .schedule table {
+  border: 1px solid #9F9F9F;
+  width: 100%;
+}
+html body main .IT-subsidy .flex .schedule table tbody tr {
+  width: 100%;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #9F9F9F;
+}
+html body main .IT-subsidy .flex .schedule table tbody tr th {
+  background-color: #FFFA83;
+  width: 30%;
+  text-align: center;
+  padding: 1.3rem 1rem;
+}
+html body main .IT-subsidy .flex .schedule table tbody tr td {
+  width: 70%;
+  padding: 1.3rem 0 1.3rem 1rem;
+}
+html body main .IT-subsidy .flex .schedule table tbody tr:last-child {
+  border-bottom: none;
+}
+html body main .IT-subsidy .flex .schedule .p-tb-btm {
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+}
+html body main .IT-subsidy .detail-p {
+  font-size: 1.4rem;
+}
+html body main .IT-subsidy .detail-p a {
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+html body main .flow {
+  margin-bottom: 8rem;
+}
+html body main .flow .title {
+  line-height: 2.3rem;
+}
+html body main .flow .title span {
+  font-size: 1.2rem;
+}
+html body main .flow .flow-chart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+html body main .flow .flow-chart .figure {
+  border: 1px solid #1E5692;
+  border-radius: 20px;
+  width: 27%;
+  height: 35rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+html body main .flow .flow-chart .figure h3 {
+  background-color: #1E5692;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  border-radius: 18px 18px 0 0;
+  padding: 1.6rem 0;
+}
+html body main .flow .flow-chart .figure .figure-text {
+  border-radius: 0 0 20px 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+html body main .flow .flow-chart .figure .figure-text img {
+  display: block;
+  margin: 2rem auto;
+  width: 80%;
+}
+html body main .flow .flow-chart .figure .figure-text p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  width: 80%;
+  margin: 0 auto 2rem;
+}
+html body main .flow .flow-chart .figure-right {
+  margin-right: 0;
+}
+html body main .flow .flow-chart .last-figure {
+  margin-right: 4.5%;
+}
+html body main .flow .flow-chart .arrow {
+  margin-right: 1rem;
+}
+html body main .flow .flow-chart .last-arrow {
+  display: none;
+}
+html body main .question {
+  margin: 0 auto 10rem;
+}
+html body main .question .tabs {
+  width: 100%;
+  /*選択されているタブを表示*/
+  /*選択されているタブのスタイル*/
+}
+html body main .question .tabs .tab_menu {
+  width: 50%;
+  height: 6rem;
+  line-height: 6rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #000;
+  background-color: #DDDDDD;
+  display: block;
+  float: left;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+html body main .question .tabs .tab_menu:hover {
+  opacity: 0.75;
+}
+html body main .question .tabs input[name=tab_menu] {
+  display: none;
+}
+html body main .question .tabs .tab_contents {
+  display: none;
+  padding-top: 20px;
+  clear: both;
+  overflow: hidden;
+  transition: 0.5s opacity;
+}
+html body main .question .tabs #menu01:checked ~ #menu01,
+html body main .question .tabs #menu02:checked ~ #menu02 {
+  display: block;
+}
+html body main .question .tabs input:checked + .tab_menu {
+  background-color: #1E5692;
+  color: #fff;
+}
+html body main .question .accordion .toggle {
+  display: none;
+}
+html body main .question .accordion .label {
+  /*タイトル*/
+  padding: 1em;
+  color: #000;
+  border-radius: 10px;
+  background-color: #F8F8F8;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+html body main .question .accordion .label .label-left {
+  display: flex;
+}
+html body main .question .accordion .label .label-left img {
+  margin-right: 0.6rem;
+}
+html body main .question .accordion .label .icon-plus {
+  color: #707070;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+html body main .question .accordion .label .icon-plus:before,
+html body main .question .accordion .label .icon-plus:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 20px;
+  height: 1.5px;
+  background-color: #707070;
+}
+html body main .question .accordion .label .icon-plus:after {
+  transform: rotate(90deg);
+}
+html body main .question .accordion .label,
+html body main .question .accordion .content {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: all 0.3s;
+}
+html body main .question .accordion .content {
+  /*本文*/
+  height: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  background-color: #DDDDDD;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+html body main .question .accordion .toggle:checked + .label + .content {
+  /*開閉時*/
+  height: auto;
+  padding: 2.5rem 2rem 2rem;
+  transition: all 0.3s;
+  position: relative;
+  z-index: -1;
+  margin-top: -1rem;
+}
+html body main .question .accordion .toggle:checked + .label::before {
+  transform: rotate(-45deg) !important;
+}
+html body main .contact {
+  background-color: #1E5692;
+  margin: 0 calc(50% - 50vw);
+  padding: 10rem 0;
+}
+html body main .contact .contact-inner {
+  background-color: #FFF;
+  padding: 5rem;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+html body main .contact .contact-inner h2 {
+  margin-bottom: 4rem;
+}
+html body main .contact .contact-inner form {
+  width: 100%;
+  margin: 0 auto;
+}
+html body main .contact .contact-inner form .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+html body main .contact .contact-inner form .item label {
+  width: 30%;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+html body main .contact .contact-inner form .item input {
+  width: 50%;
+  height: 3.6rem;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1.6rem;
+  padding: 3px 10px;
+}
+html body main .contact .contact-inner form .item textarea {
+  width: 50%;
+  padding: 3px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 10rem;
+  font-size: 1.6rem;
+}
+html body main .contact .contact-inner form .last-item {
+  margin-bottom: 4rem;
+}
+html body main .contact .contact-inner form .btn {
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+html body main .contact .contact-inner form .btn button {
+  width: 27rem;
+  padding: 2rem 0;
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: center;
+  background-color: #1E5692;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+html body main .contact .contact-inner form .btn:hover {
+  opacity: 0.8;
+}
+html body #privacy {
+  border-bottom: 0.5px solid #DDDDDD;
+  padding-bottom: 5rem;
+}
+html body #privacy .privacy-policy .section-top {
+  font-size: 1.6rem;
+  line-height: 2;
+  margin-bottom: 8rem;
+}
+html body #privacy .privacy-policy .section {
+  margin-bottom: 5rem;
+}
+html body #privacy .privacy-policy .section h3 {
+  font-size: 2rem;
+}
+html body #privacy .privacy-policy .section p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+html body #privacy .privacy-policy .section .address-div {
+  margin-top: 1rem;
+}
+html body #privacy .privacy-policy .section .address-div p {
+  line-height: 1.4;
+  margin-bottom: 0.6rem;
+}
+html body #privacy .privacy-policy .section .address-div address {
+  font-size: 1.5rem;
+}
+html body footer .footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 13rem;
+}
+html body footer .footer-inner nav ul {
+  display: flex;
+  font-size: 1.4rem;
+}
+html body footer .footer-inner nav ul li {
+  border-left: 1px solid #000;
+  padding: 1px 14px;
+  cursor: pointer;
+}
+html body footer .footer-inner nav ul li:last-child {
+  border-right: 1px solid #000;
+}
+html body footer .footer-inner nav ul li:hover a {
+  opacity: 0.6;
+}
+html body footer small {
+  text-align: center;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  html body .inner {
+    margin: 0 2rem;
+  }
+  html body header {
+    margin-bottom: 6.5vw;
+  }
+  html body header .header-inner h1 {
+    width: 7rem;
+  }
+  html body header .header-inner .nav-center ul li {
+    margin-right: 1.6vw;
+  }
+  html body header .header-inner .nav-center ul li a {
+    font-size: 1.56vw;
+  }
+  html body header .header-inner .nav-right ul li {
+    font-size: 1.3vw;
+    padding: 0.9vw 1.1vw 0.9vw 1.4vw;
+  }
+  html body header .header-inner .nav-right ul li a img {
+    width: 1.79vw;
+    margin-right: 3px;
+  }
+  html body header .header-inner .nav-right ul li:last-child a img {
+    width: 1.6vw;
+    margin-right: 2px;
+  }
+  html body main .main-visual .left {
+    width: 50%;
+  }
+  html body main .main-visual .right {
+    width: 50%;
+  }
+  html body main .service .contents .detail .detail-inner .detail-flex p {
+    font-size: 1.4vw;
+  }
+  html body main .overview .subsidy-detail {
+    width: 37%;
+  }
+  html body main .overview .left {
+    margin-right: 2rem;
+  }
+  html body main .IT-subsidy .flex .point {
+    width: 30%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  html body main .IT-subsidy .flex .schedule {
+    width: 47%;
+  }
+  html body main .IT-subsidy .flex .schedule .p-tb-btm {
+    font-size: 1.3vw;
+  }
+  html body main .flow .flow-chart .figure h3 {
+    font-size: 1.6vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  html body main .main-visual {
+    margin-bottom: 7rem;
+  }
+  html body main .main-visual .main-visual-flex {
+    margin-bottom: 2rem;
+  }
+  html body main .main-visual .main-visual-flex .left {
+    margin-right: 0rem;
+  }
+  html body main .main-visual .main-visual-flex .left h2 {
+    font-size: 2.6vw;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message p {
+    font-size: 2.2vw;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message p .span1 {
+    font-size: 3.9vw;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message p .red {
+    font-size: 4.6vw;
+  }
+  html body main .main-visual .main-visual-flex .left .point {
+    display: none;
+  }
+  html body main .main-visual .main-visual-flex .left .button {
+    display: none;
+  }
+  html body main .main-visual .responsive {
+    display: block;
+  }
+  html body main .main-visual .responsive .point {
+    margin-bottom: 3rem;
+  }
+  html body main .main-visual .responsive .point .point-div {
+    width: 50%;
+  }
+  html body main .main-visual .responsive .point .point-div h3 {
+    width: 100%;
+    font-size: 3.3vw;
+  }
+  html body main .main-visual .responsive .point .point-div p {
+    font-size: 2.6vw;
+  }
+  html body main .main-visual .responsive .button {
+    width: 50%;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  html body main .problem .problem-inner {
+    padding: 4rem 0;
+  }
+  html body main .problem .problem-inner .problem-contents {
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  html body main .problem .problem-inner .problem-contents .content {
+    padding: 4rem 4rem 3rem;
+    width: 100%;
+  }
+  html body main .problem .problem-inner .problem-contents .content .content-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  html body main .problem .problem-inner .problem-contents .content .content-inner .inside p {
+    font-size: 1.4rem;
+  }
+  html body main .problem .problem-inner .problem-contents .content .content-inner .inside p span {
+    font-size: 1.6rem;
+  }
+  html body main .problem .problem-inner .problem-contents .image {
+    display: none;
+  }
+  html body main .problem .problem-inner .problem-contents .image img {
+    height: 100%;
+    display: block;
+    margin: 0 atuo;
+  }
+  html body main .problem .problem-inner .responsive-image {
+    display: flex;
+    justify-content: space-around;
+  }
+  html body main .problem .problem-inner .responsive-image .image img {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  html body main .service {
+    margin-bottom: 6rem;
+  }
+  html body main .service .contents {
+    justify-content: space-around;
+  }
+  html body main .service .contents .detail {
+    width: 45%;
+    height: 15rem;
+    min-height: inherit;
+    box-sizing: border-box;
+  }
+  html body main .service .contents .detail .detail-inner {
+    padding: 1rem;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    height: 11rem;
+  }
+  html body main .service .contents .detail .detail-inner h3 {
+    font-size: 2.08vw;
+  }
+  html body main .service .contents .detail .detail-inner .detail-flex p {
+    font-size: 1.69vw;
+  }
+  html body main .service .contents .detail3 {
+    margin-right: 1rem;
+  }
+  html body main .service .contents .detail4 {
+    margin-bottom: 2rem;
+  }
+  html body main .subsidy {
+    margin-bottom: 6rem;
+  }
+  html body main .subsidy .explanation {
+    font-size: 2.08vw;
+  }
+  html body main .subsidy .overview .left {
+    margin-right: 1rem;
+  }
+  html body main .subsidy .overview .subsidy-detail {
+    width: 48%;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  html body main .subsidy .overview .subsidy-detail h3 {
+    margin-bottom: 1rem;
+    font-size: 2.4vw;
+  }
+  html body main .subsidy .overview .subsidy-detail p {
+    font-size: 1.69vw;
+  }
+  html body main .IT-subsidy {
+    margin-bottom: 6rem;
+  }
+  html body main .IT-subsidy .flex {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  html body main .IT-subsidy .flex .point {
+    padding: 2rem;
+    width: 48%;
+    box-sizing: border-box;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+  html body main .IT-subsidy .flex .point-1 {
+    margin-right: 2rem;
+  }
+  html body main .IT-subsidy .flex .schedule {
+    width: 100%;
+  }
+  html body main .IT-subsidy .flex .schedule table tbody tr td {
+    padding: 1.3rem 0 1.3rem 2rem;
+  }
+  html body main .flow .flow-chart .figure {
+    width: 40%;
+    padding-bottom: 1rem;
+    margin-right: 0.5rem;
+  }
+  html body main .flow .flow-chart .figure h3 {
+    padding: 1.6rem 1rem;
+  }
+  html body main .flow .flow-chart .figure .figure-text img {
+    margin: 1.5rem auto;
+  }
+  html body main .flow .flow-chart .figure .figure-text p {
+    font-size: 2vw;
+  }
+  html body main .flow .flow-chart .last-figure {
+    margin-right: 8%;
+  }
+  html body main .flow .flow-chart .arrow {
+    margin-right: 0.5rem;
+    width: 4%;
+  }
+  html body main .question {
+    margin: 0 auto 6rem;
+  }
+  html body main .question .tabs .tab_menu {
+    font-size: 2.08vw;
+  }
+  html body main .question .accordion .label .label-left {
+    width: 96%;
+  }
+  html body main .question .accordion .label .icon-plus {
+    margin-left: 1rem;
+    width: 4%;
+  }
+  html body main .contact {
+    padding: 6rem 0;
+  }
+  html body main .contact .contact-inner {
+    padding: 4rem 2rem;
+  }
+  html body main .contact .contact-inner form .item input {
+    height: 3.2rem;
+  }
+  html body main .contact .contact-inner form .last-item {
+    margin-bottom: 4rem;
+  }
+  html body footer .footer-inner {
+    height: 11rem;
+  }
+  html body footer .footer-inner h1 {
+    width: 9rem;
+  }
+  html body footer .footer-inner h1 a {
+    width: 100%;
+    display: block;
+  }
+  html body footer .footer-inner h1 a img {
+    width: 100%;
+  }
+  html body footer .footer-inner nav ul {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  html body header {
+    height: 70px;
+  }
+  html body header .header-inner {
+    height: 70px;
+    justify-content: space-between;
+    position: relative;
+  }
+  html body header .header-inner .nav-center {
+    display: none;
+  }
+  html body header .header-inner .nav-right {
+    position: absolute;
+    right: 50px;
+  }
+  html body header .header-inner .nav-right ul {
+    display: flex;
+  }
+  html body header .header-inner .nav-right ul li {
+    padding: 0.6rem 1rem 0.6rem 1.2rem;
+  }
+  html body header .header-inner .nav-right ul li a {
+    font-size: 1.2rem;
+  }
+  html body header .header-inner .nav-right ul li:first-child {
+    margin-bottom: 0;
+    margin-right: 0.6rem;
+  }
+  html body header .header-inner .nav-right ul li:first-child img {
+    width: 17px;
+  }
+  html body header .header-inner .nav-right ul li:last-child a img {
+    width: 15px;
+  }
+  html body header .header-inner .hamburger-menu {
+    display: block;
+  }
+  html body header .header-inner .hamburger-menu .menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #fff;
+    border: 1px solid #9F9F9F;
+    border-radius: 2px;
+  }
+  html body header .header-inner .hamburger-menu .menu-btn span,
+  html body header .header-inner .hamburger-menu .menu-btn span:before,
+  html body header .header-inner .hamburger-menu .menu-btn span:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #1E5692;
+    position: absolute;
+  }
+  html body header .header-inner .hamburger-menu .menu-btn span:before {
+    bottom: 8px;
+  }
+  html body header .header-inner .hamburger-menu .menu-btn span:after {
+    top: 8px;
+  }
+  html body header .header-inner .hamburger-menu #menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);
+    /*メニューオープン時は真ん中の線を透明にする*/
+  }
+  html body header .header-inner .hamburger-menu #menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  html body header .header-inner .hamburger-menu #menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  html body header .header-inner .hamburger-menu #menu-btn-check {
+    display: none;
+  }
+  html body header .header-inner .hamburger-menu #menu-btn-check:checked ~ .menu-content {
+    left: 0;
+    /*メニューを画面内へ*/
+  }
+  html body header .header-inner .hamburger-menu .menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    /*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background-color: #1E5692;
+    transition: all 0.5s;
+    /*アニメーション設定*/
+  }
+  html body header .header-inner .hamburger-menu .menu-content ul {
+    padding: 3rem 2rem 0;
+  }
+  html body header .header-inner .hamburger-menu .menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+  }
+  html body header .header-inner .hamburger-menu .menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1.9rem 1.5rem 2rem 2rem;
+    position: relative;
+  }
+  html body header .header-inner .hamburger-menu .menu-content ul li a::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: solid 1px #ffffff;
+    border-right: solid 1px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 20px;
+    top: 27px;
+  }
+  html body header .header-inner .hamburger-menu .menu-content .hamburger-top {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 5rem;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  html body header .header-inner .hamburger-menu .menu-content .hamburger-top .hamburger-logo {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  html body .br480 {
+    display: block;
+  }
+  html body header .header-inner .nav-right ul li {
+    padding: 1.3vw 2.1vw 1.2vw 2.4vw;
+  }
+  html body header .header-inner .nav-right ul li a {
+    font-size: 1.5vw;
+  }
+  html body header .header-inner .nav-right ul li:first-child a img {
+    width: 3.4vw;
+    margin-bottom: 0;
+  }
+  html body header .header-inner .nav-right ul li:last-child a img {
+    width: 3.4vw;
+    margin-bottom: 0;
+  }
+  html body main h2.title {
+    font-size: 5.16vw;
+  }
+  html body main .main-visual {
+    margin-bottom: 5rem;
+  }
+  html body main .main-visual .main-visual-flex {
+    display: block;
+  }
+  html body main .main-visual .main-visual-flex .left {
+    width: 100%;
+  }
+  html body main .main-visual .main-visual-flex .left h2 {
+    font-size: 4.2vw;
+    margin-bottom: 0.5rem;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message {
+    margin-bottom: 1.6rem;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message p {
+    font-size: 3.9vw;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message p .span1 {
+    font-size: 5.9vw;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message p .span2 {
+    letter-spacing: -0.1rem;
+  }
+  html body main .main-visual .main-visual-flex .left .main-message p .red {
+    font-size: 5.9vw;
+  }
+  html body main .main-visual .main-visual-flex .right {
+    width: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  html body main .main-visual .main-visual-flex .right img {
+    width: 100vw;
+  }
+  html body main .main-visual .responsive .point {
+    margin-bottom: 1.5rem;
+  }
+  html body main .main-visual .responsive .button {
+    width: 64%;
+    font-size: 4.1vw;
+    padding: 2.5rem 1rem;
+  }
+  html body main .problem {
+    margin-bottom: 5rem;
+  }
+  html body main .problem .problem-inner h2 {
+    font-size: 5.16vw;
+  }
+  html body main .problem .problem-inner .problem-contents .content {
+    padding: 3rem 2rem 2rem;
+  }
+  html body main .problem .problem-inner .problem-contents .content .content-inner {
+    width: 100%;
+  }
+  html body main .problem .problem-inner .responsive-image .image {
+    width: 30%;
+  }
+  html body main .problem .problem-inner .responsive-image .image img {
+    width: 100%;
+  }
+  html body main .service {
+    margin-bottom: 5rem;
+  }
+  html body main .service .contents {
+    display: block;
+  }
+  html body main .service .contents .detail {
+    width: 96%;
+    margin: 0 auto 2rem;
+    height: 14rem;
+  }
+  html body main .service .contents .detail .detail-inner {
+    height: 10rem;
+  }
+  html body main .service .contents .detail .detail-inner h3 {
+    font-size: 3.8vw;
+    margin-bottom: 0rem;
+  }
+  html body main .service .contents .detail .detail-inner .detail-flex p {
+    font-size: 3vw;
+  }
+  html body main .service .explanation p .br480 {
+    display: block;
+  }
+  html body main .subsidy {
+    margin-bottom: 5rem;
+  }
+  html body main .subsidy .explanation {
+    font-size: 3.08vw;
+  }
+  html body main .subsidy .overview {
+    flex-direction: column;
+  }
+  html body main .subsidy .overview .subsidy-detail {
+    width: 96%;
+    margin: 0 auto 2rem;
+  }
+  html body main .subsidy .overview .subsidy-detail h3 {
+    font-size: 3.75vw;
+  }
+  html body main .subsidy .overview .subsidy-detail p {
+    font-size: 3.3vw;
+  }
+  html body main .IT-subsidy .flex {
+    display: block;
+  }
+  html body main .IT-subsidy .flex .point {
+    width: 100%;
+  }
+  html body main .IT-subsidy .flex .point h3 {
+    font-size: 3.3vw;
+  }
+  html body main .IT-subsidy .flex .point p {
+    font-size: 2.91vw;
+  }
+  html body main .IT-subsidy .flex .point-1 {
+    margin-right: 0rem;
+  }
+  html body main .IT-subsidy .flex .schedule table tbody tr th {
+    font-size: 3.125vw;
+  }
+  html body main .IT-subsidy .flex .schedule table tbody tr td {
+    font-size: 3.125vw;
+  }
+  html body main .IT-subsidy .detail-p {
+    font-size: 2.9vw;
+  }
+  html body main .flow {
+    margin-bottom: 5rem;
+  }
+  html body main .flow .flow-chart {
+    flex-direction: column;
+  }
+  html body main .flow .flow-chart .figure {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-bottom: 1rem;
+    margin-right: 0rem;
+  }
+  html body main .flow .flow-chart .figure .figure-text img {
+    width: 50%;
+  }
+  html body main .flow .flow-chart .figure .figure-text p {
+    width: 90%;
+    margin: 0 auto 1rem;
+    font-size: 3vw;
+  }
+  html body main .flow .flow-chart .arrow {
+    transform: rotateZ(90deg);
+    margin-bottom: 1rem;
+  }
+  html body main .question .tabs .tab_menu02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+  }
+  html body main .contact .contact-inner {
+    padding: 4rem 2rem 7rem;
+  }
+  html body main .contact .contact-inner form .item {
+    flex-direction: column;
+  }
+  html body main .contact .contact-inner form .item label {
+    width: 100%;
+    margin-left: 0rem;
+    margin-bottom: 0.3rem;
+  }
+  html body main .contact .contact-inner form .item input {
+    height: 3.6rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  html body main .contact .contact-inner form .item textarea {
+    height: 15rem;
+    min-height: 15rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  html body footer .footer-inner {
+    margin-bottom: 0.4rem;
+  }
+  html body footer .footer-inner nav ul {
+    display: block;
+  }
+  html body footer .footer-inner nav ul li {
+    margin-bottom: 0.3rem;
+    padding: 1px 4px;
+    border-left: none;
+  }
+  html body footer .footer-inner nav ul li:last-child {
+    border-right: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  html body header .header-inner .nav-right ul li:first-child a img {
+    margin-bottom: 2px;
+  }
+  html body header .header-inner .nav-right ul li:last-child a img {
+    margin-bottom: 1px;
+  }
+}/*# sourceMappingURL=style.css.map */

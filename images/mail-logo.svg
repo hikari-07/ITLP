@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_81" data-name="長方形 81" width="18" height="18" transform="translate(1030 30.158)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="mail-logo" transform="translate(-1030 -30.158)" clip-path="url(#clip-path)">
+    <path id="envelope-regular" d="M2.27,4.2A.569.569,0,0,0,1.7,4.77v.784L7.82,10.575a1.984,1.984,0,0,0,2.522,0l6.114-5.022V4.77a.569.569,0,0,0-.567-.567ZM1.7,7.756v6.093a.569.569,0,0,0,.567.567H15.889a.569.569,0,0,0,.567-.567V7.756L11.42,11.891a3.689,3.689,0,0,1-4.681,0ZM0,4.77A2.272,2.272,0,0,1,2.27,2.5H15.889a2.272,2.272,0,0,1,2.27,2.27v9.079a2.272,2.272,0,0,1-2.27,2.27H2.27A2.272,2.272,0,0,1,0,13.849Z" transform="translate(1030 29.77)"/>
+  </g>
+</svg>
