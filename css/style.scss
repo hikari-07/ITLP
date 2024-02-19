@@ -234,6 +234,7 @@ html {
               height: 70px;
               line-height: 70px;
               letter-spacing: 0.2rem;
+              font-size: 1.0vw;
 
               span {
                 font-size: 2.4rem;
@@ -545,7 +546,7 @@ html {
         }
 
         .detail-p {
-          font-size: 1.4rem;
+          font-size: 1.4vw;
 
           a {
             border-bottom: 1px solid #000;
@@ -914,6 +915,31 @@ html {
   }
 }
 
+@media screen and (max-width:1200px) {
+  html {
+    body {
+      main {
+        .main-visual {
+          .point {
+            .point-div {
+              h3 {
+                span {
+                  font-size: 1.1vw;
+                }
+              }
+
+              p {
+                font-size: 1.4vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
 @media screen and (max-width:1000px) {
   html {
     body {
@@ -1096,6 +1122,10 @@ html {
                 h3 {
                   width: 100%;
                   font-size: 3.3vw;
+
+                  span {
+                    font-size: 1.9vw;
+                  }
                 }
 
                 p {
@@ -1190,7 +1220,7 @@ html {
 
                 .detail-flex {
                   p {
-                    font-size: 1.69vw;
+                    font-size: 1.8vw;
                   }
                 }
               }
@@ -1257,6 +1287,10 @@ html {
             .schedule {
               width: 100%;
 
+              .p-tb-btm {
+                font-size: 1.9vw;
+              }
+
               table {
                 tbody {
                   tr {
@@ -1267,6 +1301,10 @@ html {
                 }
               }
             }
+          }
+
+          .detail-p {
+            font-size: 1.9vw;
           }
         }
 
@@ -1279,6 +1317,7 @@ html {
 
               h3 {
                 padding: 1.6rem 1rem;
+                font-size: 2.3vw;
               }
 
               .figure-text {
@@ -1564,10 +1603,10 @@ html {
             ul {
               li {
                 a {
-                  font-size: 1.5vw;
+                  font-size: 2.5vw;
                 }
 
-                padding: 1.3vw 2.1vw 1.2vw 2.4vw;
+                padding: 1.3vw 2.1vw 1.3vw 2.4vw;
               }
 
               li:first-child {
@@ -1646,6 +1685,18 @@ html {
           .responsive {
             .point {
               margin-bottom: 1.5rem;
+
+              .point-div {
+                h3 {
+                  span {
+                    font-size: 2.5vw;
+                  }
+                }
+
+                p {
+                  font-size: 3vw;
+                }
+              }
             }
 
             .button {
@@ -1802,6 +1853,10 @@ html {
               margin-bottom: 1rem;
               margin-right: 0rem;
 
+              h3 {
+                font-size: 3.6vw;
+              }
+
               .figure-text {
                 img {
                   width: 50%;
@@ -1810,7 +1865,8 @@ html {
                 p {
                   width: 90%;
                   margin: 0 auto 1rem;
-                  font-size: 3vw;
+                  font-size: 3.1vw;
+                  width: 93%;
                 }
               }
             }
@@ -1824,6 +1880,10 @@ html {
 
         .question {
           .tabs {
+            .tab_menu {
+              font-size: 3vw;
+            }
+
             .tab_menu02 {
               display: flex;
               justify-content: center;
